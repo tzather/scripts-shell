@@ -14,5 +14,7 @@
   "editor.formatOnType": true,
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "[ignore]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
+  "[shellscript]": { "editor.defaultFormatter": "foxundermoon.shell-format" }
 }
