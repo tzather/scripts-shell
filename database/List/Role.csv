@@ -1,0 +1,5 @@
+Column,Datatype,Required,Default,Length,Precision,Unique,FkSchema,FkTable,FkColumn
+Id,uniqueidentifier,1,,,,,,,
+UpdatedById,uniqueidentifier,1,,,,,dbo,User,Id
+Updated,datetime2,1,getutcdate(),,,,,,
+Text,nvarchar,1,,100,,U1,,,

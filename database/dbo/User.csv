@@ -1,0 +1,14 @@
+Column,Datatype,Required,Default,Length,Precision,Unique,FkSchema,FkTable,FkColumn
+Id,uniqueidentifier,1,,,,,,,
+UpdatedById,uniqueidentifier,1,,,,,dbo,User,Id
+Updated,datetime2,1,getutcdate(),,,,,,
+Email,nvarchar,1,,50,,U1,,,
+PasswordHash,nvarchar,1,,100,,,,,
+PhoneNumber,nvarchar,1,,20,,,,,
+IsActive,bit,1,0,,,,,,
+TwoFactorEnabled,bit,1,0,,,,,,
+FirstName,nvarchar,,,50,,,,,
+LastName,nvarchar,,,50,,,,,
+LandingPage,nvarchar,,,100,,,,,
+Roles,nvarchar,,,max,,,,,
+Clients,nvarchar,,,max,,,,,
