@@ -1,3 +1,4 @@
+# generate mssql scripts from teh csv files
 clear
 
 get-column() {
